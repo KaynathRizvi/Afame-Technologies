@@ -1,96 +1,64 @@
-# 🏠 Home Essence
+🌿 Crafted Comfort - Home Decor Website
 
-Home Essence is a full-stack product showcase website built using **React.js** (Frontend) and **Node.js + Express.js** (Backend) with an SQL database. The platform displays a variety of home decor and furniture products.
+Welcome to Crafted Comfort, a beautifully designed home decor website built with React.js, Node.js, and Express.js. This project provides a seamless and visually appealing experience, showcasing elegant layouts, smooth navigation, and a creative touch.
 
-## 🚀 Live Demo  
-🔗 [View Website](https://home-essence-client.onrender.com/)  
 
----
 
-## 📌 Features  
-✅ User Authentication (Signup/Login)  
-✅ Browse Home Decor & Furniture Products  
-✅ Search Products  
-✅ Filter Products by Category  
-✅ Product Details Page  
-✅ Add to Wishlist and Cart  
-✅ Remove from Wishlist and Cart  
-✅ Responsive UI  
+🚀 Live Demo
 
----
+🔗 [View the Deployed Site]([url](https://crafted-comfort.onrender.com))
 
-## 🛠 Tech Stack  
-- **Frontend:** React.js  
-- **Backend:** Node.js, Express.js  
-- **Database:** MySQL  
+📌 Features
 
----
+✅ Full-Stack Application - Built with React.js (Frontend) and Node.js/Express.js (Backend)✅ Fully Responsive - Works on desktops, tablets, and mobile devices✅ Elegant UI/UX - Carefully designed with a modern color palette and structured sections✅ Smooth Navigation - User-friendly layout for a seamless experience✅ Custom Buttons & Animations - Styled using CSS flexbox & grid✅ Backend API - Uses Express.js for handling requests✅ Database Integration (If applicable, mention MongoDB/MySQL/etc.)
 
-## 🛠 Installation Guide  
+🛠️ Technologies Used
 
-Follow these steps to set up the project on your local machine.  
+React.js - For building the frontend UI
 
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/KaynathRizvi/home-essence.git
-cd home-essence
-```
+Node.js & Express.js - For backend API and server
 
-### 2️⃣ Backend Setup (`server/`)  
-```sh
+HTML5 & CSS3 - For structuring and styling
+
+Flexbox & Grid - For layout design
+
+Google Fonts - Custom typography
+
+Render - For deployment
+
+MySQL
+
+📥 Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/crafted-comfort.git
+cd crafted-comfort
+
+2️⃣ Install Dependencies
+
+npm install  # Install dependencies for frontend
 cd server
-npm install
-```
-- Create a `.env` file inside the `server/` folder and add your database credentials:  
-  ```
-  DB_HOST=localhost
-  DB_USER=your_username
-  DB_PASS=your_password
-  DB_NAME=home_essence_db
-  ```
+npm install  # Install dependencies for backend
 
-### 3️⃣ Frontend Setup (`client/`)  
-```sh
-cd ../client
-npm install
-```
+3️⃣ Start the Backend Server
 
-### 4️⃣ Database Setup  
-The database schema for this project is provided in the following SQL file:   
-
-🔗 **[Download SQL File](https://gist.github.com/KaynathRizvi/5582ed86bfe1d092e16c2edb136408b7)**  
-
-### 5️⃣ Running the Application  
-
-#### Start Backend Server  
-```sh
 cd server
+node index.js  # Or use nodemon if installed
+
+4️⃣ Start the Frontend
+
+cd ..  # Go back to root directory
 npm start
-```
 
-#### Start Frontend  
-```sh
-cd client
-npm start
-```
+🖼️ Screenshots
 
-### 6️⃣ Open in Browser  
-The frontend will be available at:  
-🔗 **http://localhost:3000**  
+Add screenshots or a GIF showing your project in action!
 
----
+📩 Contact
 
-## 🚀 Deployment  
-The project is deployed on **Render**:  
-🔗 [Live URL](https://home-essence-client.onrender.com/)  
+If you have any questions or suggestions, feel free to reach out!
 
----
-
-## 📸 Screenshots  
-_(Optional: Add images of your UI using markdown `![Alt Text](image_url)`)_  
-
----
-
-## 📍 License  
-This project is licensed under the MIT License.  
-📄 [Read Full License](https://opensource.org/licenses/MIT)
+📧 Email: your@email.com💻 GitHub: yourusername
