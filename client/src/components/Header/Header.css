@@ -1,0 +1,235 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px 20px; 
+    position: relative; 
+    z-index: 1000; 
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navbar.scrolled {
+    background-color: #d9dee1;
+  }
+.navbar-title {
+    margin: 0;
+    font-size: 30px; 
+    font-family: ubuntu;
+    font-weight: 400;
+    color: #403e3f;
+    text-decoration: none;
+}
+
+.title-link{
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 20%; 
+    font-size: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #403e3f;
+    font-weight: bold;
+    font-family: ubuntu;
+    font-weight: 400;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    color: #374254;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+}
+.profile-name{
+    font-size: 16px;
+    font-family: ubuntu;
+    color: #403e3f;
+    font-weight: 200;
+}
+
+.logout-button{
+    width: 60%;
+    background-color: #403e3f;
+    color: #d9dee1;
+    border-radius: 10px;
+    border: none;
+}
+
+.logout-button:hover{
+    background-color: black;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;    
+}
+
+.hamburger div {
+    width: 20px;
+    height: 2.5px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1280px){
+    .navbar {
+        padding: 10px 10px; 
+    }
+
+    .navbar-title {
+        font-size: 24px; 
+        font-weight: 500;
+    }
+    
+    .nav-links {
+        font-size: 14px;
+        padding-right: 10%; 
+        gap: 30px;
+    }
+
+    .profile-name{
+        font-size: 14px;
+    }
+    
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px; 
+        height: 100%;
+        width: 100%;
+    }
+    .navbar-title {
+        font-size: 20px; 
+        font-weight: 600;
+    }
+    .nav-links {
+        font-size: 26px;
+        position: absolute; 
+        top: 50%; 
+        right: 0;
+        text-align: right;
+        background-color: #3c3a3c;
+        padding: 30px;
+        display: none; 
+        z-index: 999; 
+        border-radius: 50px 0px 0px 50px;
+    }
+    .nav-links li {
+        margin-bottom: 1.4em; 
+      }
+
+    .nav-links a{
+        color: white;
+        font-weight: 100;
+    }
+
+    .nav-links.show {
+        display: block; 
+    }
+
+    .hamburger {
+        display: flex; 
+    }
+
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-name{
+        font-size: 22px;
+        font-family: ubuntu;
+        color: #d9dee1;
+        width: 100px;
+        padding-bottom: 10%;
+    }
+    
+    .logout-button{
+        width: 100%;
+        height: 40px;
+        background-color: #d9dee1;
+        color: #403e3f;
+        font-size: 20px;
+        font-family: ubuntu;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .navbar-title {
+        font-size: 18px; 
+        font-weight: 400;
+    }
+    .nav-links {
+        font-size: 20px;
+        position: absolute; 
+        top: 50%; 
+        right: 0;
+        text-align: right;
+        background-color: #3c3a3c;
+        padding: 20px;
+        display: none; 
+        z-index: 999; 
+        border-radius: 50px 0px 0px 50px;
+    }
+    .nav-links li {
+        margin-bottom: .9em; 
+      }
+
+    .nav-links a{
+        color: white;
+        font-weight: 100;
+    }
+    .nav-links.show {
+        display: block; 
+    }
+    .hamburger {
+        display: flex; 
+    }
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-name{
+        font-size: 16px;
+        color: #d9dee1;
+        width: 100px;
+        padding-bottom: 10%;
+    }
+    
+    .logout-button{
+        width: 100%;
+        height: 40px;
+        background-color: #d9dee1;
+        color: #403e3f;
+        font-size: 14px;
+        font-family: ubuntu;
+    }
+}

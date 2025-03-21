@@ -1,0 +1,27 @@
+.contact-container{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.contact-heading{
+    font-size: 4em;
+    color: #3c3a3c;
+    font-family: ubuntu;
+}
+
+@media (max-width: 768px) {
+    .contact-heading {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-heading {
+        font-size: 2em;
+    }
+
+    .contact-container {
+        padding: 5%;
+    }
+}

@@ -1,0 +1,149 @@
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #333;
+}
+
+.cart-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.cart-list {
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+
+.cart-item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.cart-item button {
+  background-color: #3c3a3c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+  background-color: black;
+}
+
+.cart-img{
+  width: 15%;
+  border-radius: 10px;
+}
+.cart-list li{
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+@media (max-width: 1200px) {
+  .cart-container {
+      padding: 10px;
+  }
+
+  .cart-container h2 {
+      font-size: 24px;
+  }
+
+  .cart-item {
+      padding: 12px;
+  }
+
+  .cart-item p {
+      font-size: 14px;
+  }
+
+  .cart-item button {
+      font-size: 12px;
+      padding: 6px 10px;
+  }
+  .cart-img{
+    width: 20%;
+  }
+  .cart-list li{
+    gap: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-container h2 {
+      font-size: 20px;
+  }
+
+  .cart-item {
+      padding: 10px;
+  }
+
+  .cart-item p {
+      font-size: 14px;
+  }
+
+  .cart-item button {
+      font-size: 12px;
+      padding: 6px 8px;
+      width: 100%;
+  }
+  .cart-img{
+    width: 25%;
+  }
+  .cart-list li{
+    gap: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-container h2 {
+      font-size: 18px;
+  }
+
+  .cart-item {
+      padding: 10px;
+  }
+
+  .cart-item p {
+      font-size: 12px;
+  }
+
+  .cart-item h3 {
+    font-size: 14px;
+}
+
+  .cart-item button {
+    
+      font-size: 12px;
+      padding: 6px 8px;
+      width: 100px;
+  }
+  .cart-img{
+    width: 30%;
+  }
+  .cart-list li{
+    gap: 2%;
+  }
+}
