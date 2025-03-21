@@ -59,10 +59,10 @@ npm start
 
 ---
 
-## 📩 Contact  
-If you have any questions or suggestions, feel free to reach out!  
-
-📧 Email: **your@email.com**  
-💻 GitHub: [Kaynath Rizvi](https://github.com/yourusername)  
+💻 GitHub: [Kaynath Rizvi](https://github.com/KaynathRizvi/)  
 
 ---
+
+## 📍 License  
+This project is licensed under the MIT License.  
+📄 [Read Full License](https://opensource.org/licenses/MIT)
