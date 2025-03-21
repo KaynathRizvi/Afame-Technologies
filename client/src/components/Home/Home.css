@@ -47,6 +47,11 @@
     font-family: ubuntu;
 }
 
+.know-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .know-button:hover{
     background-color: #000000;
 }

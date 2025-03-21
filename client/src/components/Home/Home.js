@@ -1,6 +1,7 @@
-import bg from '../../assests/bg.png';
+import bg from '../../assests/bg-2.png';
 import './Home.css';
 import ProductSearchBar from '../ProductSearchBar/ProductSearchBar';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -16,7 +17,7 @@ const Home = () => {
         Our collection blends modern design with timeless elegance, bringing warmth and personality to your home.
         </div>
         <div className="know-button-container">
-          <button className="know-button">Know More</button>
+          <button className="know-button"><Link to="/about">Know More</Link></button>
         </div>
         <div className="bg-container">
           <img src={bg} alt="Urban Rental Background" className="background-image" />
